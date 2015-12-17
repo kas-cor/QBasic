@@ -18,7 +18,7 @@
             var dosbox = new Dosbox({
                 id: "dosbox",
                 onload: function (dosbox) {
-                    dosbox.run("http://js-dos.com/cdn/digger.zip", "./DIGGER.COM");
+                    dosbox.run("https://raw.githubusercontent.com/kas-cor/QBasic/master/qbasic.zip", "./QBASIC.EXE ./prog/PYTNA.BAS");
                 },
                 onrun: function (dosbox, app) {
                     console.log("App '" + app + "' is runned");
